@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0E2947;
+    /* position: absolute; */
+}
+
+/* Start of Nav */
+.nav {
+    height: 80.4px;
+    background-color: #EEF4FD;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.logo {
+    width: 90px;
+    height: 100px;
+}
+
+.logoutext {
+    /* margin-left: -82px;  */
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    cursor: pointer;
+    color: #0E2947;
+}
+
+.logout{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.logout img{
+    width: 30.4px;
+    height: 30.4px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0E2947;
+    font-size: large;
+    font-weight: bold;
+    position: relative;
+}
+
+nav a i {
+    margin-top: 10px;
+}
+
+nav a #down {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -5px;
+    margin-bottom: -12px;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 115px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 10px;
+    top: 35px;
+    left: -5px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-radius: 10px;
+    font-size: 15px;
+    color: #0E2947;
+}
+
+.dropdown-content a:hover {
+    background-color: #EEF4FD;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* End of nav */
+
+/* Notification Section Start */
+
+.notifications{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    width: 610px;
+    height: 165.4px;
+    position: relative;
+    top: 30px;
+    border-radius: 10px;
+    gap: 8px;
+    
+}
+
+.noti-overview{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 55px;
+}
+
+.notifications #Hello{
+    font-size: 50px;
+}
+.notifications #Noti{
+    font-size: 19px;
+}
+.notifications span img{
+    width: 30.8px;
+    height: 34px;
+}
+
+/* Notification Section End */
+
+/* Main section start */
+
+.main{
+    background-color: #EEF4FD;
+    width: 1285.3px;
+    height: 441px;
+    border-radius: 10px;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    
+}
+
+.butt{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 38px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.card{
+    background-color: #fff;
+    width: 252.1px;
+    height: 126.4px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    padding: 20px;
+    border: 0px solid grey;
+    border-radius: 10px;
+}
+
+.card img{
+    width: 32.1px;
+    height: 20.9px;
+}
+
+.btn{
+  padding: 10px 20px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #fff;
+  /* margin: 0px 0px; */
+}
+
+.btn.active {
+    background-color: rgb(182, 181, 181); /* Set the background color for active button */
+    color: white; /* Set the text color for active button */
+  }
+
+  .num{
+    font-weight: bolder;
+    font-size: larger;
+  }
+
+  /* .card img{
+    color: gray;
+  } */
