@@ -196,7 +196,7 @@ nav a #down {
 }
 
 .btn.active {
-    background-color: rgb(182, 181, 181); /* Set the background color for active button */
+    background-color: #0E2947; /* Set the background color for active button */
     color: white; /* Set the text color for active button */
   }
 
@@ -208,3 +208,21 @@ nav a #down {
   /* .card img{
     color: gray;
   } */
+
+
+  a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: -1px;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    background: #00A0E3;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  a:hover:after { 
+    width: 100%; 
+    left: 0;
+  }
