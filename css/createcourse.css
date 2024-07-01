@@ -184,6 +184,7 @@ nav a #down {
     width: 118%;
     height: 50px;
     padding: 3px;
+    color: rgb(87, 86, 86);
 }
 
 .name label, .type label{
@@ -215,6 +216,7 @@ nav a #down {
     width: 100%;
     height: 50px;
     padding: 3px;
+    color: rgb(87, 86, 86);
 }
 
 .domain{
@@ -227,6 +229,7 @@ nav a #down {
     width: 100%;
     height: 50px;
     padding: 3px;
+    color: rgb(87, 86, 86);
 }
 
 .desc label{
@@ -245,4 +248,10 @@ nav a #down {
 
 .btn button:hover{
     cursor: pointer;
+}
+
+#active{
+    border: 0.5px solid black;
+    padding: 18px;
+    border-radius: 4px;
 }
