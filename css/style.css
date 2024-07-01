@@ -1,5 +1,3 @@
-
-
 *{
     margin: 0;
     padding: 0;
@@ -14,24 +12,50 @@ body{
     /* height: 105px; */
     height: 13vh;
     background-color: #EEF4FD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 0 16px;
 }
 
 .logo{
     width: 96px;
     height: 105px;
-    margin-right: 243px;
-    margin-left: 126px; 
-}
-
-.nav{
-    display: flex;
-    align-items: center;
-    /* gap: 370px; */
-    /* justify-content: center; */
+    /* margin-right: 243px;
+    margin-left: 126px;  */
+    position: absolute;
+    left: 126px;
 }
 
 .nav h1{
+    font-size: 36px;
+    text-align: center;
     font-family: 'Open Sans',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+}
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 16px;
+    }
+
+    .logo {
+        position: static;
+        margin: 0 auto 16px;
+    }
+
+    .nav h1 {
+        font-size: 24px;
+        margin: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav h1 {
+        font-size: 18px;
+    }
 }
 
 /* .card{
