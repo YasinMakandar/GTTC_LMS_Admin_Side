@@ -102,24 +102,34 @@ nav a #down {
 
 /* Main */
 
-.main{
+.wrapper{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    gap: 55px;
+    
 }
-.create{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #fff;
-    width: 610px;
-    height: 165.4px;
+.main{
+    border: 2px solid white;
+    height: 394.5px;
+    width: 909.5px;
     position: relative;
-    top: 30px;
-    /* border-radius: 10px; */
-    gap: 8px;
+    top: 115px;
+}
 
+.create span{
+    background-color: #00A0E3;
+    text-align: center;
+    font-weight: bold;
+    height: 60.8px;
+}
+
+.fourdivmain{
+    display: flex;
+    background-color: aquamarine;
+    padding: 40px;
+
+}
+
+.fourdiv{
+    border: 2px solid red;
 }
