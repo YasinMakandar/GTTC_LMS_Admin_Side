@@ -31,36 +31,52 @@
         </div>
     </nav>
     <div class="wrapper">
-    <div class="main">
-        <div class="create">
-            <h1>Create Course</h1>
-            <div class="fourdivmain">
-                <div class="fourdiv">
-                    <div class="first">
-                        <div class="name">
-
+        <div class="main">
+            <div class="create">
+                <div class="CC">
+                    Create Course
+                </div>
+                <div class="fourdivmain">
+                    <div class="fourdiv">
+                        <div class="first">
+                            <div class="name">
+                                <label for="coursename">Course Name</label>
+                                <input type="text" id="coursename" placeholder="Enter Course Name">
+                            </div>
+                            <div class="domain">
+                                <label for="coursedomain">Course Domain</label>
+                                <select id="coursedomain">
+                                    <option value="">Select Course Domain</option>
+                                    <option value="Eng">Engineering</option>
+                                    <option value="Medical">Medical</option>
+                                    <option value="Dip">Diploma</option>
+                                    <option value="ITI">ITI</option>
+                                </select>
+                            </div>
                         </div>
-                        <div class="type">
-
-
+                        <div class="second">
+                            <div class="type">
+                                <label for="coursetype">Course Type</label>
+                                <select id="coursetype">
+                                    <option value="default">Select Course Type</option>
+                                    <option value="paid">PAID</option>
+                                    <option value="free">FREE</option>
+                                </select>
+                            </div>
+                            <div class="desc">
+                                <label for="coursedesc">Course Description</label>
+                            <textarea id="coursedesc" placeholder="Enter Course Description..."></textarea>
+                            </div>
+    
                         </div>
-                    </div>
-                    <div class="second">
-                        <div class="desc">
-
+                        <div class="btn">
+                            <button>ADD</button>
                         </div>
-                        <div class="domain">
-
-                        </div>
-                    </div>
-                    <div class="btn">
-
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 </body>
 
 </html>
