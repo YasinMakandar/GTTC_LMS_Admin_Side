@@ -7,3 +7,8 @@ buttons.forEach(button => {
         this.classList.add("active"); // Add active class to the clicked button
     });
 });
+
+document.getElementById('mobile-menu').addEventListener('click', function() {
+    const navList = document.querySelector('.nav-list');
+    navList.classList.toggle('active');
+});
