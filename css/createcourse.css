@@ -258,7 +258,7 @@ nav a #down {
     border-radius: 4px;
 }
 
-a:after {    
+.line:after {    
     background: none repeat scroll 0 0 transparent;
     bottom: -1px;
     content: "";
@@ -270,7 +270,104 @@ a:after {
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
   }
-  a:hover:after { 
+  .line:hover:after { 
     width: 100%; 
     left: 0;
   }
+
+  
+  /* Updated Code Start */
+
+  @media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 13vh;
+        left: 0;
+        background-color: #EEF4FD;
+        text-align: center;
+    }
+
+    .nav-list.active {
+        display: flex;
+    }
+
+    nav a {
+        width: 100%;
+    }
+
+    .dropdown-content {
+        position: static;
+        box-shadow: none;
+        border-radius: 0;
+    }
+
+    .dropdown-content a {
+        padding: 10px;
+    }
+
+    .logout {
+        margin-top: 10px;
+    }
+}
+
+.logoutext {
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    cursor: pointer;
+    color: #0E2947;
+    margin-right: 3.0vw;
+}
+
+.logout {
+    display: flex;
+    align-items: center;
+}
+
+.logout img{
+    width: 30.4px;
+    height: 30.4px;
+}
+
+#navbar {
+    height: 12vh;
+    background-color: #EEF4FD;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: relative;
+}
+#logo {
+    display: flex;
+    align-items: center;
+}
+
+#logo img {
+    margin-left: 11vh;
+    height: 110px;
+}
+
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+    font-size: 2rem;
+    color: #0E2947;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-grow: 1;
+    margin-left: 6vh;
+}
+
+/* Updated Code End */
