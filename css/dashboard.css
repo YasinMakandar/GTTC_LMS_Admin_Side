@@ -180,8 +180,9 @@ nav a #down {
 }
 
 .card img{
-    width: 32.1px;
+    width: 25.1px;
     height: 20.9px;
+    color: gainsboro;
 }
 
 .btn{
