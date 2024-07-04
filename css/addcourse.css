@@ -44,6 +44,21 @@ body {
     height: 30.4px;
 }
 
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+    font-size: 2rem;
+    color: #0E2947;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-grow: 1;
+    margin-left: 6vh;
+}
+
 nav a {
     text-decoration: none;
     color: #0E2947;
@@ -177,20 +192,6 @@ nav a #down {
     height: 110px;
 }
 
-.menu-toggle {
-    display: none;
-    cursor: pointer;
-    font-size: 2rem;
-    color: #0E2947;
-}
-
-.nav-list {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-grow: 1;
-    margin-left: 6vh;
-}
 
 /* Updated Code End */
 
