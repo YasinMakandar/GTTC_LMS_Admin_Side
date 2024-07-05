@@ -133,7 +133,7 @@ nav a #down {
         flex-direction: column;
         width: 100%;
         position: absolute;
-        top: 13vh;
+        top: 12vh;
         left: 0;
         background-color: #EEF4FD;
         text-align: center;
@@ -141,6 +141,14 @@ nav a #down {
 
     .nav-list.active {
         display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px auto;
+        /* width: 75%; */
+        gap: 60px;
+        border-radius: 15px;
+        z-index: 1;
     }
 
     nav a {
