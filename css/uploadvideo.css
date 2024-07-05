@@ -24,6 +24,11 @@ body {
     height: 100px;
 }
 
+#logo img {
+    margin-left: 11vh;
+    height: 110px;
+}
+
 .logoutext {
     /* margin-left: -82px;  */
     font-weight: bold;
@@ -116,6 +121,11 @@ nav a #down {
 }
 
 @media (max-width: 768px) {
+
+    #logo img {
+        margin-left: 11vh;
+        height: 110px;
+    }
     .menu-toggle {
         display: block;
     }
@@ -187,10 +197,6 @@ nav a #down {
     align-items: center;
 }
 
-#logo img {
-    margin-left: 11vh;
-    height: 110px;
-}
 
 
 
