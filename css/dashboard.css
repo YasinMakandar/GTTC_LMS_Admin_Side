@@ -65,6 +65,7 @@ nav a {
     font-size: large;
     font-weight: bold;
     position: relative;
+
 }
 
 nav a i {
@@ -242,10 +243,19 @@ nav a #down {
     width: 100%; 
     left: 0;
   }
+  #logo img {
+    margin-left: 11vh;
+    height: 110px;
+}
 
   /* Updated Code Start */
 
   @media (max-width: 768px) {
+    #logo img{
+        margin-left: 0vh;
+        height: 110px;
+    }
+
     .menu-toggle {
         display: block;
     }
@@ -255,7 +265,7 @@ nav a #down {
         flex-direction: column;
         width: 100%;
         position: absolute;
-        top: 13vh;
+        top: 12vh;
         left: 0;
         background-color: #EEF4FD;
         text-align: center;
@@ -263,6 +273,14 @@ nav a #down {
 
     .nav-list.active {
         display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px auto;
+        /* width: 75%; */
+        gap: 60px;
+        border-radius: 15px;
+        z-index: 1;
     }
 
     nav a {
@@ -317,10 +335,7 @@ nav a #down {
     align-items: center;
 }
 
-#logo img {
-    margin-left: 11vh;
-    height: 110px;
-}
+
 
 
 
