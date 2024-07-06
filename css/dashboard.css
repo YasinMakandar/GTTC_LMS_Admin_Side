@@ -248,6 +248,16 @@ nav a #down {
     height: 110px;
 }
 
+.first {
+    display: flex;
+    justify-content: space-between;
+}
+.second{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
   /* Updated Code Start */
 
   @media (max-width: 768px) {
@@ -299,6 +309,65 @@ nav a #down {
 
     .logout {
         margin-top: 10px;
+    }
+
+    .notifications{
+        width: 283px;
+        height: 130.4px;
+        gap: 10px;
+    }
+
+    .notifications #Hello{
+        font-size: 30px;
+    }
+    .notifications #Noti{
+        font-size: 11px;
+    }
+    .notifications span img{
+        width: 20.8px;
+        height: 25px;
+    }
+    .butt{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 0px;
+        gap: 20px;
+    }
+    .btn{
+        padding: 6px 10px;
+    }
+    .main{
+        width: 90%;
+        height: 470px;
+    }
+
+    .first .second{
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .first{
+        gap: 30px;
+    }
+    .cards{
+        flex-direction: column;
+        gap: 25px;
+    }
+    .card{
+        align-items: center;
+    }
+    .card .text{
+        font-size: 12px;
+        text-align: center;
+    }
+    .card span .num{
+        font-size: 30px;
+    }
+    .butt span{
+        text-decoration: 1px underline #00A0E3;
     }
 }
 
