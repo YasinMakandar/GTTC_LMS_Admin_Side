@@ -119,61 +119,6 @@ nav a #down {
     display: block;
 }
 
-@media (max-width: 768px) {
-    #logo img {
-        margin-left: 0vh;
-        height: 110px;
-    }
-    .menu-toggle {
-        display: block;
-    }
-
-    .nav-list {
-        display: none;
-        flex-direction: column;
-        width: 100%;
-        position: absolute;
-        top: 12vh;
-        left: 0;
-        background-color: #eef4fdf5;
-        text-align: center;
-    }
-
-    .nav-list.active {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: 20px auto;
-        width: 70%;
-        gap: 40px;
-        border-radius: 5px;
-        z-index: 1;
-        position: absolute;
-        left: 28%;
-        top: 56%;
-        border: 0.8px solid #0E2947;
-        padding: 20px 0px;
-    }
-
-    nav a {
-        width: 100%;
-    }
-
-    .dropdown-content {
-        position: static;
-        box-shadow: none;
-        border-radius: 0;
-    }
-
-    .dropdown-content a {
-        padding: 10px;
-    }
-
-    .logout {
-        margin-top: 10px;
-    }
-}
 
 .logoutext {
     font-weight: bold;
@@ -406,3 +351,73 @@ nav a #down {
     width: 100%; 
     left: 0;
   }
+
+  
+@media (max-width: 768px) {
+    #logo img {
+        margin-left: 0vh;
+        height: 110px;
+    }
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 12vh;
+        left: 0;
+        background-color: #eef4fdf5;
+        text-align: center;
+    }
+
+    .nav-list.active {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px auto;
+        width: 70%;
+        gap: 40px;
+        border-radius: 5px;
+        z-index: 1;
+        position: absolute;
+        left: 28%;
+        top: 56%;
+        border: 0.8px solid #0E2947;
+        padding: 20px 0px;
+    }
+
+    nav a {
+        width: 100%;
+    }
+
+    .dropdown-content {
+        position: static;
+        box-shadow: none;
+        border-radius: 0;
+    }
+
+    .dropdown-content a {
+        padding: 10px;
+    }
+
+    .logout {
+        margin-top: 10px;
+    }
+    .first, .second{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .fourdiv{
+        gap: 15px;
+    }
+    .btn input{
+        margin-top: 15px;
+    }
+    .main{
+        top: 80px;
+    }
+}
