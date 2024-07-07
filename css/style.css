@@ -217,5 +217,11 @@ a:after {
     .card .btn {
         margin-left: 70px;
     }
+    .card h1{
+        font-size: 20px;
+    }
+    .inputbox i{
+        right: 20px;
+    }
 
 }
