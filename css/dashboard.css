@@ -278,7 +278,7 @@ nav a #down {
         position: absolute;
         top: 12vh;
         left: 0;
-        background-color: #EEF4FD;
+        background-color: #eef4fdf5;
         text-align: center;
     }
 
@@ -288,10 +288,14 @@ nav a #down {
         justify-content: center;
         align-items: center;
         margin: 20px auto;
-        /* width: 75%; */
+        width: 75%;
         gap: 60px;
-        border-radius: 15px;
+        border-radius: 5px;
         z-index: 1;
+        position: absolute;
+        left: 25%;
+        top: 56%;
+        border: 0.8px solid #0E2947;
     }
 
     nav a {
