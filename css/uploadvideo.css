@@ -419,4 +419,7 @@ nav a #down {
     .main{
         top: 80px;
     }
+    .desc input{
+        width: 100%;
+    }
 }
