@@ -137,7 +137,7 @@ nav a #down {
         position: absolute;
         top: 12vh;
         left: 0;
-        background-color: #EEF4FD;
+        background-color: #eef4fdf5;
         text-align: center;
     }
 
@@ -147,10 +147,15 @@ nav a #down {
         justify-content: center;
         align-items: center;
         margin: 20px auto;
-        /* width: 75%; */
-        gap: 60px;
-        border-radius: 15px;
+        width: 70%;
+        gap: 40px;
+        border-radius: 5px;
         z-index: 1;
+        position: absolute;
+        left: 28%;
+        top: 56%;
+        border: 0.8px solid #0E2947;
+        padding: 20px 0px;
     }
 
     nav a {
