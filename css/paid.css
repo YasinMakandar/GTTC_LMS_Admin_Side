@@ -184,6 +184,8 @@ nav a #down {
     margin: 24px auto;
     overflow: scroll;
     /* position: sticky; */
+    padding: 18px;
+    border-radius: 5px;
   }
   .main {
     -ms-overflow-style: none;  /* Internet Explorer 10+ */
@@ -197,7 +199,77 @@ nav a #down {
     overflow: hidden;
   }
 
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.paiduser{
+    background-color: #00A0E3;
+    padding: 9px;
+    border-radius: 2px;
+    color: #EEF4FD;
+}
+
+.empty{
+    width: 11%;
+}
+
+.first{
+    display: flex;
+    justify-content: space-evenly;
+}
+.second{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+.third{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+.user-info{
+    background-color: #fff;
+    border: 1px solid gainsboro;
+    padding: 10px 15px 15px 15px;
+    border-radius: 25px;
+    width: 250px;
+}
+.user-logo {
+    position: relative;
+    top: 0px;
+    left: 90px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #14365d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 13px;
+}
+
+.view-details{
+    background-color: #00A0E3;
+    border: none;
+    padding: 5px;
+    color: #fff;
+    border-radius: 5px;
+    margin: 10px 80px;
+    cursor: pointer;
+}
+.center{
+    margin-top: 20px;
+}
+.sort select{
+    padding: 5px;
+    border-radius: 5px;
+}
 @media (max-width: 768px) {
     #logo img {
         margin-left: 0vh;
