@@ -325,4 +325,24 @@ nav a #down {
     .logout {
         margin-top: 10px;
     }
+    .paiduser{
+        padding: 8px 2px;
+        margin-right: 93px;
+    }
+    .empty{
+        width: 0%;
+    }
+    .sort select{
+        padding: 1px;
+    }
+    .main{
+        width: 85%;
+        height: 648.6px;
+        padding: 8px 10px;
+        margin: 45px auto;
+    }
+    .first,.second,.third{
+        flex-direction: column;
+        align-items: center;
+    }
 }
