@@ -326,7 +326,7 @@ nav a #down {
         margin-top: 10px;
     }
     .paiduser{
-        padding: 8px 2px;
+        padding: 12px 2px;
         margin-right: 93px;
     }
     .empty{
@@ -334,6 +334,7 @@ nav a #down {
     }
     .sort select{
         padding: 1px;
+        width: 100%;
     }
     .main{
         width: 85%;
@@ -344,5 +345,8 @@ nav a #down {
     .first,.second,.third{
         flex-direction: column;
         align-items: center;
+    }
+    .user-info p {
+        padding: 8px;
     }
 }
