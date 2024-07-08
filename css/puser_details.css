@@ -238,6 +238,40 @@ nav a #down {
     padding: 5px;
 }
 
+.user-info{
+    background-color: #fff;
+    border: 1px solid gainsboro;
+    padding: 10px 15px 15px 15px;
+    border-radius: 25px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+}
+.user-logo {
+    position: relative;
+    top: 0px;
+    left: 13px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #14365d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 13px;
+}
+
+.user-info p{
+    padding: 20px;
+}
+
 
 
 
@@ -309,5 +343,9 @@ nav a #down {
 
     .main{
         width: 90%;
+    }
+    .user-info{
+        align-items: start;
+        width: 100%;
     }
 }
