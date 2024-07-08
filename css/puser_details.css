@@ -306,4 +306,8 @@ nav a #down {
     .logout {
         margin-top: 10px;
     }
+
+    .main{
+        width: 70%;
+    }
 }
