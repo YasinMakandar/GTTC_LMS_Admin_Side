@@ -12,17 +12,31 @@
     <header>
         <nav id="navbar">
             <div id="logo">
-                <a href="./dashboard.html"><img src="./img/GTTC-Lgo-for web.png" alt="GTTC Logo" class="logo"></a>
+                <img src="./img/GTTC-Lgo-for web.png" alt="GTTC Logo" class="logo">
             </div>
             <div class="menu-toggle" id="mobile-menu">
                 <i class='bx bx-menu'></i>
             </div>
             <div class="nav-list">
-                <a class="line" href="./createcourse.html" >Create Course</a>
-                <a class="line" href="./addcourse.html" id="active">Add Subject</a>
-                <a class="line" href="./uploadvideo.html">Upload Video</a>
                 <div class="dropdown">
-                    <a class="line" href="#" class="dropbtn">Subscriptions </a><i class='bx bx-chevron-down' id="down"></i>
+                    <a class="line" href="#">Create</a><i class='bx bx-chevron-down' id="down"></i>
+                    <div class="dropdown-content">
+                        <a class="line" href="./createcourse.html">Create Course</a>
+                        <a class="line" href="./addcourse.html">Add Subject</a>
+                        <a class="line" href="./uploadvideo.html">Upload Video</a>
+                    </div>
+                </div>
+                <div>
+                    <div class="dropdown">
+                        <a class="line" href="#">Update</a><i class='bx bx-chevron-down' id="down"></i>
+                        <div class="dropdown-content">
+                            <a class="line" href="./editsubject.html">Subject</a>
+                            <a class="line" href="#">Video</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a class="line" href="#" class="dropbtn">Subscriptions</a><i class='bx bx-chevron-down' id="down"></i>
                     <div class="dropdown-content">
                         <a class="line" href="./paid.html">Paid Users</a>
                         <a class="line" href="./free.html">Free Users</a>
