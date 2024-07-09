@@ -49,7 +49,7 @@ var myChart = new Chart(ctx, {
                 ticks: {
                     color: '#000000',
                     font: {
-                        size: 14
+                        size: 11
                     }
                 },
                 grid: {
@@ -60,7 +60,7 @@ var myChart = new Chart(ctx, {
                 ticks: {
                     color: '#000000',
                     font: {
-                        size: 14
+                        size: 11
                     },
                     beginAtZero: true,
                     stepSize: 20

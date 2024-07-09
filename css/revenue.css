@@ -357,4 +357,13 @@ nav a #down {
         align-items: start;
         width: 100%;
     }
+    .chart-container{
+        width: 335px;
+    }
+    .chart{
+        width: 106%;
+    }
+    .chartmain{
+        top: 60px;
+    }
 }
