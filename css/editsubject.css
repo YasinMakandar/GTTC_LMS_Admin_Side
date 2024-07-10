@@ -179,15 +179,16 @@ nav a #down {
 
   .main{
     width: 1143.2px;
-    height: 648.6px;
+    height: 620.6px;
     background-color: #EEF4FD;
-    margin: 24px auto ;
+    /* margin: 24px auto ; */
     overflow: scroll;
     /* position: sticky; */
     /* padding: 18px; */
     border-radius: 5px;
     position: absolute;
     left: 13vw;
+    top: 18vh;
   }
   .main {
     -ms-overflow-style: none;  /* Internet Explorer 10+ */
@@ -370,14 +371,17 @@ nav a #down {
         width: 85%;
         height: 648.6px;
         /* padding: 8px 10px; */
-        margin: 45px auto;
+        /* margin: 45px auto; */
         left: 8vw;
+        top: 18vh;
     }
     .first,.second,.third{
         flex-direction: column;
         align-items: center;
         gap: 15px;
     }
+
+    
     .user-info p {
         padding: 8px;
     }
