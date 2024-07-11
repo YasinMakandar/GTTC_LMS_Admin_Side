@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Add Course</title>
+    <title>Create Course</title>
+    <link rel="stylesheet" href="./css/createmock.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="./css/addcourse.css">
-    <link rel="shortcut icon" href="./img/GTTC-Lgo-for web.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
 </head>
+
 <body>
     <header>
         <nav id="navbar">
             <div id="logo">
-                <a href="./dashboard.html"><img src="./img/GTTC-Lgo-for web.png" alt="GTTC Logo" class="logo"></a>
+                <img src="./img/GTTC-Lgo-for web.png" alt="GTTC Logo" class="logo">
             </div>
             <div class="menu-toggle" id="mobile-menu">
                 <i class='bx bx-menu'></i>
@@ -50,48 +52,39 @@
                 </div>
             </div>
         </nav>
-    </header>
+</header>
     <div class="wrapper">
         <div class="main">
             <div class="create">
-                    <div class="CC">
-                        <span>Add Subject</span>
-                    </div>
+                <div class="CC">
+                    Create Mock Test
+                </div>
                 <div class="fourdivmain">
                     <div class="fourdiv">
                         <div class="first">
                             <div class="name">
-                                <label for="subname">Subject Name</label>
-                                <input type="text" id="subname" placeholder="Enter Subject Name">
+                                <label for="coursename">Test Name</label>
+                                <input type="text" id="coursename" placeholder="Enter Test Name">
                             </div>
-                            <div class="domain">
-                                <label for="selectcourse">Select Course Subject </label>
-                                <select id="selectcourse">
-                                    <option value="">Select Course Subject</option>
-                                    <option value="Eng">Engineering</option>
-                                    <option value="Medical">Medical</option>
-                                    <option value="Dip">Diploma</option>
-                                    <option value="ITI">ITI</option>
-                                </select>
+                            <div class="marks">
+                                <label for="coursename">Marks</label>
+                                <input type="number" min="0" id="coursename" placeholder="Enter Marks Per Question">
                             </div>
                         </div>
                         <div class="second">
-                            <div class="type">
-                                <label for="subtype">Subject Type</label>
-                                <select id="subtype">
-                                    <option value="default">Select Course Type</option>
-                                    <option value="paid">PAID</option>
-                                    <option value="free">FREE</option>
-                                </select>
-                            </div>
+                            
                             <div class="desc">
-                                <label for="subdesc">Subject Description</label>
-                            <textarea id="subdesc" placeholder="Enter Subject Description..."></textarea>
+                                <label for="coursedesc">Test Description</label>
+                            <textarea id="coursedesc" cols="18" placeholder="Enter Test Description..."></textarea>
+                            </div>
+                            <div class="marks">
+                                <label for="coursename">-Ve Marks</label>
+                                <input type="number" min="0"  id="coursename" placeholder="Enter -Ve Marks Per Question">
                             </div>
                         </div>
                         <div class="btn">
                             <!-- <button>ADD</button> -->
-                             <input type="submit" value="ADD">
+                             <input type="submit" value="CREATE">
                         </div>
                     </div>
                 </div>
@@ -100,4 +93,5 @@
     </div>
     <script src="./js/script.js"></script>
 </body>
+
 </html>
