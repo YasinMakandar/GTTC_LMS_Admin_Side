@@ -368,6 +368,12 @@ nav a #down {
     cursor: pointer;
 }
 
+.dandq{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 
 @media (max-width: 768px) {
     #logo img {
@@ -449,7 +455,7 @@ nav a #down {
         padding: 8px;
     }
     .qa-block i{
-        left: 285px;
+        left: 275px;
         bottom: 25px;
         
     }
