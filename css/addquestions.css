@@ -448,4 +448,20 @@ nav a #down {
     .user-info p {
         padding: 8px;
     }
+    .qa-block i{
+        left: 285px;
+        bottom: 25px;
+        
+    }
+
+    .qa-block{
+        border-bottom: 2px solid gainsboro;
+    }
+    .user-info{
+        width: 100%;
+    }
+    .addsave{
+        flex-direction: column;
+        align-items: center;
+    }
 }
