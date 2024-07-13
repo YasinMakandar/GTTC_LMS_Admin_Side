@@ -84,14 +84,36 @@
                         </div>
                         <div class="btn">
                             <!-- <button>ADD</button> -->
-                             <input type="submit" value="CREATE">
+                             <input type="submit" value="CREATE" onclick="showPopup()">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div id="popup" class="popup">
+            <div class="popup-content">
+                <h3>Test Added!</h3>
+                <p>Do you want to add questions now?</p>
+                <button class="Yes" onclick="addQuestions()">Yes, now.</button>
+                <button class="No" onclick="closePopup()">No, Later.</button>
+            </div>
+        </div>
+        
     </div>
     <script src="./js/script.js"></script>
+    <script>
+        function showPopup() {
+            document.getElementById('popup').style.display = 'block';
+        }
+
+        function closePopup() {
+            document.getElementById('popup').style.display = 'none';
+        }
+
+        function addQuestions() {
+            window.location.href = './addquestions.html'; // replace with the actual path to add questions page
+        }
+    </script>
 </body>
 
 </html>
